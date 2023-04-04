@@ -1,6 +1,7 @@
 import Canvas from './canvas';
 import Customizer from './pages/Customizer';
 import Home from './pages/Home';
+import { render } from '@react-three/fiber';
 
 function App() {
   return (
@@ -11,5 +12,6 @@ function App() {
     </main>
   )
 }
+
 
 export default App
